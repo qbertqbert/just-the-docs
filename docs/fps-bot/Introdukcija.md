@@ -14,14 +14,61 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## Testing
 
-Just the Docs uses a responsive type scale that shifts depending on the viewport size.
+# Testing[testing]
 
-| Selector              | Small screen size `font-size`    | Large screen size `font-size` |
-|:----------------------|:---------------------------------|:------------------------------|
-| `h1`, `.text-alpha`   | 32px                             | 36px                          |
-| `h2`, `.text-beta`    | 18px                             | 24px                          |
-| `h3`, `.text-gamma`   | 16px                             | 18px                          |
-| `h4`, `.text-delta`   | 14px                             | 16px                          |
-| `h5`, `.text-epsilon` | 16px                             | 18px                          |
-| `h6`, `.text-zeta`    | 18px                             | 24px                          |
-| `body`                | 14px                             | 16px                          |
+```c
+/*
+	Revision history:
+    	Revised by Qbert 2020
+*/
+  
+//      constructs the Token out of following members respectively
+struct Token {
+        char kind;
+        double value;
+        string name;
+
+        Token(char ch) : kind(ch), value(0.0) {}
+        Token(char ch, double val) : kind(ch), value(val) {}
+        Token(char ch, string val) : kind(ch), name(val) {}  
+};
+```
+---
+
+```cpp
+/*
+	Revision history:
+    	Revised by Qbert 2020
+*/
+  
+//      constructs the Token out of following members respectively
+struct Token {
+        char kind;
+        double value;
+        string name;
+
+        Token(char ch) : kind(ch), value(0.0) {}
+        Token(char ch, double val) : kind(ch), value(val) {}
+        Token(char ch, string val) : kind(ch), name(val) {}  
+};
+```
+
+---
+
+```c++
+/*
+	Revision history:
+    	Revised by Qbert 2020
+*/
+  
+//      constructs the Token out of following members respectively
+struct Token {
+        char kind;
+        double value;
+        string name;
+
+        Token(char ch) : kind(ch), value(0.0) {}
+        Token(char ch, double val) : kind(ch), value(val) {}
+        Token(char ch, string val) : kind(ch), name(val) {}  
+};
+```
