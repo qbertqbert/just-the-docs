@@ -3,44 +3,16 @@ layout: default
 title: Introdukcija
 parent: Fps bot
 nav_order: 1
+published: true
 ---
 
-# Typography
-{: .no_toc }
+## Introdukcija
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 ---
 
-## Font stack
-
-By default, Just the Docs uses a native system font stack for sans-serif fonts:
-
-```scss
--apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif
-```
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .code-example }
-
-For monospace type, like code snippets or the `<pre>` element, Just the Docs uses a native system font stack for monospace fonts:
-
-```scss
-"SFMono-Regular", Menlo, Consolas, Monospace
-```
-
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .text-mono .code-example }
-
----
-
-## Responsive type scale
+## Testing
 
 Just the Docs uses a responsive type scale that shifts depending on the viewport size.
 
@@ -53,4 +25,3 @@ Just the Docs uses a responsive type scale that shifts depending on the viewport
 | `h5`, `.text-epsilon` | 16px                             | 18px                          |
 | `h6`, `.text-zeta`    | 18px                             | 24px                          |
 | `body`                | 14px                             | 16px                          |
-
