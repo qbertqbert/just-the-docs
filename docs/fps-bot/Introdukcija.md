@@ -14,53 +14,17 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## Testing
 
-# Testing[testing]
+### Testing[testing]
 
 ```c
 /*
 	Revision history:
     	Revised by Qbert 2020
 */
-  
-//      constructs the Token out of following members respectively
-struct Token {
-        char kind;
-        double value;
-        string name;
 
-        Token(char ch) : kind(ch), value(0.0) {}
-        Token(char ch, double val) : kind(ch), value(val) {}
-        Token(char ch, string val) : kind(ch), name(val) {}  
-};
-```
----
+#include <iostream>	??
+#include <vector>   ??
 
-```cpp
-/*
-	Revision history:
-    	Revised by Qbert 2020
-*/
-  
-//      constructs the Token out of following members respectively
-struct Token {
-        char kind;
-        double value;
-        string name;
-
-        Token(char ch) : kind(ch), value(0.0) {}
-        Token(char ch, double val) : kind(ch), value(val) {}
-        Token(char ch, string val) : kind(ch), name(val) {}  
-};
-```
-
----
-
-```c++
-/*
-	Revision history:
-    	Revised by Qbert 2020
-*/
-  
 //      constructs the Token out of following members respectively
 struct Token {
         char kind;
